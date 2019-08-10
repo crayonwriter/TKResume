@@ -6,4 +6,8 @@
     <string name="resume_home">Theda K. Rogers Home Fragment</string>
 
     <string name="contact_info">Contact Information</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skills_info">Skills and Talents</string>
 </resources>
