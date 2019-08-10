@@ -4,12 +4,16 @@
     <string name="resume_title">Theda K. Rogers</string>
 
     <string name="resume_home">Theda K. Rogers Home Fragment</string>
-
     <string name="contact_info">Contact Information</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="skills_info">Skills and Talents</string>
     <string name="Experience_Clients">Experience and Client List</string>
     <string name="portfolio_title">Portfolio Information</string>
+
+    <string-array name="skills">
+        <item>Java</item>
+        <item>Git</item>
+        <item>Typing 60–80wpm</item>
+        <item>Android Studio</item>
+        <item>Microsoft Word, Excel</item>
+    </string-array>
 </resources>
