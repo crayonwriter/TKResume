@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class SectionsPagerAdapter extends FragmentPagerAdapter {
-
+        //The FragmentPagerAdapter passes information to the ViewPager
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
