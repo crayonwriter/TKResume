@@ -1,5 +1,6 @@
 package com.crayonwriter.newresume;
 
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         SectionsPagerAdapter pagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         ViewPager pager = findViewById(R.id.pager);
         pager.setAdapter(pagerAdapter);
+
+        //Attach the ViewPager to the TabLayout
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tablayout);
+        tabLayout.setupWithViewPager(pager);
     }
 
     private class SectionsPagerAdapter extends FragmentPagerAdapter {
@@ -53,6 +58,23 @@ public class MainActivity extends AppCompatActivity {
 
                 case 4:
                     return new PortfolioFragment();
+            }
+            return null;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+                case 0:
+                    return getResources().getText(R.string.home_tab);
+                case 1:
+                    return getResources().getText(R.string.contact_tab);
+                case 2:
+                    return getResources().getText(R.string.skills_tab);
+                case 3:
+                    return getResources().getText(R.string.experience_tab);
+                case 4:
+                    return getResources().getText(R.string.portfolio_tab);
             }
             return null;
         }
