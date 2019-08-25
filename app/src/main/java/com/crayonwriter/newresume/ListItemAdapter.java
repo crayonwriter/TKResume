@@ -11,7 +11,11 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemAdapter.ViewHo
         this.company_name = company_name;
         this.description_text = description_text;
     }
-    
+
+    @Override
+    public int getItemCount() {
+        return company_name.length;
+    }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
