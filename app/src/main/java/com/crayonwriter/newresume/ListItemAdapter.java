@@ -1,15 +1,10 @@
 package com.crayonwriter.newresume;
 
-import android.support.v7.view.menu.MenuView;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.LinearLayoutManager;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class ListItemAdapter extends RecyclerView.Adapter<ListItemAdapter.ViewHolder> {
 
@@ -27,17 +22,18 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemAdapter.ViewHo
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        private TextView company, description;
+        public View company, description;
 
         public ViewHolder(View view) {
             super(view);
-            company = (TextView) view.findViewById(R.id.company_name);
+            company = view.findViewById(R.id.company_name);
             description = view.findViewById(R.id.description_text);
         }
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ListItemAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.listitem_layout, parent, false);
         return new ViewHolder(itemView);
     }

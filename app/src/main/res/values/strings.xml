@@ -12,7 +12,7 @@
 
     <!--Tab titles-->
     <string name="home_tab">Home</string>
-    <string name="contact_tab">Company</string>
+    <string name="contact_tab">Contact</string>
     <string name="skills_tab">Skills</string>
     <string name="experience_tab">Experience</string>
     <string name="portfolio_tab">Portfolio</string>
