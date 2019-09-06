@@ -27,12 +27,12 @@ public class ExperienceFragment extends Fragment {
 
         String[] experienceDescription2 = new String[Experience.experiences.length];
         for (int i = 0; i < experienceDescription2.length; i++) {
-            experienceDescription2[i] = Experience.experiences[i].getDescription();
+            experienceDescription2[i] = Experience.experiences[i].getDescription2();
         }
 
         String[] experienceDescription3 = new String[Experience.experiences.length];
         for (int i = 0; i < experienceDescription3.length; i++) {
-            experienceDescription3[i] = Experience.experiences[i].getDescription();
+            experienceDescription3[i] = Experience.experiences[i].getDescription3();
         }
 
         ListItemAdapter adapter = new ListItemAdapter(experienceNames, experienceDescription, experienceDescription2, experienceDescription3);
