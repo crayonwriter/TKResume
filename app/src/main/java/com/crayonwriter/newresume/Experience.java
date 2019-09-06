@@ -7,9 +7,17 @@ public class Experience {
     private String description3;
 
     public static final Experience[] experiences = {
-            new Experience("Proofreader", "Fannie Mae: Proofread documents quickly and accurately using company style guide and extensive AP style knowledge, while working remotely.", "Made word choice suggestions for major marketing materials", "Proofread a variety of B2B documents using AP and company style guidelines"),
+            new Experience("Proofreader", "Fannie Mae", "Made word choice suggestions for major marketing materials", "Proofread a variety of B2B documents using AP and company style guidelines"),
 
-            new Experience("Proofreader", "Synchrony Bank: Proofread newly updated terms and conditions for various bank clients", "Used detail-oriented skills to ensure accuracy of interest rates", "" )
+            new Experience("Proofreader", "Synchrony Bank", "Proofread newly updated terms and conditions for various bank clients", "Used detail-oriented skills to ensure accuracy of interest rates" ),
+
+            new Experience("Proofreader", "Creative Circle", "Worked expertly under quick deadlines ", "Excelled at juggling multiple assignments" ),
+
+            new Experience("Proofreader", "Sapient Nitro", "Proofread and copyedited annual reports Insights 2015 & Insights 2016", "Copyedited infographics and articles" ),
+
+            new Experience("Copywriter/editor", "Girl Scouts of Greater Atlanta", "Wrote and edited content for annual report", " " ),
+
+            new Experience("Grant panel review writer/editor", "Centers for Disease Control", "Wrote summaries and edited grant panel content for submission to the CDC ", "Took notes during science-oriented grant review panels" )
 
     };
 
