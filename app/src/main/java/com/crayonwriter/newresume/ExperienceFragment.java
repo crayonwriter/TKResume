@@ -1,6 +1,5 @@
 package com.crayonwriter.newresume;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -26,7 +25,17 @@ public class ExperienceFragment extends Fragment {
             experienceDescription[i] = Experience.experiences[i].getDescription();
         }
 
-        ListItemAdapter adapter = new ListItemAdapter(experienceNames, experienceDescription);
+        String[] experienceDescription2 = new String[Experience.experiences.length];
+        for (int i = 0; i < experienceDescription2.length; i++) {
+            experienceDescription2[i] = Experience.experiences[i].getDescription();
+        }
+
+        String[] experienceDescription3 = new String[Experience.experiences.length];
+        for (int i = 0; i < experienceDescription3.length; i++) {
+            experienceDescription3[i] = Experience.experiences[i].getDescription();
+        }
+
+        ListItemAdapter adapter = new ListItemAdapter(experienceNames, experienceDescription, experienceDescription2, experienceDescription3);
         experienceRecycler.setAdapter(adapter);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         experienceRecycler.setLayoutManager(layoutManager);
