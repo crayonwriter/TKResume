@@ -12,25 +12,27 @@
             android:id="@+id/company_name"
             android:text="Company Name Test"
             android:textAllCaps="true"
-            android:textSize="16sp"/>
+            android:textSize="15sp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/description_text"
+            android:textSize="14sp"
             android:text="Description Text Test"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/description2_text"
+            android:textSize="12sp"
             android:text="Description Text2 Test"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/description3_text"/>
-            <!--android:text="Description Text3 Test"/>-->
+            android:id="@+id/description3_text"
+            android:textSize="10sp"/>
 
         <View
             android:id="@+id/divider"
