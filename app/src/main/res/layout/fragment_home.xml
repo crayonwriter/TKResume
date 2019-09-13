@@ -9,12 +9,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/resume_line1" />
+        android:text="@string/resume_line1"
+        android:textAlignment="center"
+
+        android:textSize="14sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/resume_line2"/>
+        android:text="@string/resume_line3"
+        android:textAlignment="center"
+
+        android:textSize="14sp"/>
+
 
 
 
