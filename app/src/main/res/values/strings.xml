@@ -4,7 +4,12 @@
 
     <string name="resume_title">Theda K. Rogers</string>
 
-    <string name="resume_home">Theda K. Rogers Home Fragment</string>
+    <string name="resume_line1">Theda K. Rogers</string>
+    <string name="resume_line2">Resume</string>
+    <string name="resume_line3">Seeking Android and Java developer opportunities</string>
+    <string name="resume_line4">Resume for Theda K. Rogers</string>
+
+
     <string name="contact_info">Contact Information</string>
     <string name="skills_info">Skills and Talents</string>
     <string name="Experience_Clients">Experience and Client List</string>
