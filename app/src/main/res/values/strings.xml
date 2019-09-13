@@ -8,7 +8,7 @@
     <string name="contact_info">Contact Information</string>
     <string name="skills_info">Skills and Talents</string>
     <string name="Experience_Clients">Experience and Client List</string>
-    <string name="portfolio_title">Portfolio Information</string>
+    <string name="portfolio_title">GitHub Information: github.com/crayonwriter</string>
 
     <!--Tab titles-->
     <string name="home_tab">Home</string>
