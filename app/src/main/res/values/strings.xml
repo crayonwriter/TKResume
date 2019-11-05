@@ -21,6 +21,10 @@
     <string name="skills_tab">Skills</string>
     <string name="experience_tab">Experience</string>
     <string name="portfolio_tab">Portfolio</string>
+    <string name="CellphoneNumber">(770)744-0434</string>
+    <string name="Name">Theda K. Rogers</string>
+    <string name="EmailAddress">crayonwriter@gmail.com</string>
+    <string name="GithubInfo">github: crayonwriter</string>
     <string-array name="skills">
         <item>Java</item>
         <item>Git</item>
