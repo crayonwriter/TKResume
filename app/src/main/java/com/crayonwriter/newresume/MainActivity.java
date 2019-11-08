@@ -83,12 +83,4 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
-
-    public void sendEmail(View view) {
-
-        Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
-        emailIntent.setType("text/plain");
-        emailIntent.putExtra(Intent.EXTRA_TEXT, messageText);
-        startActivity(emailIntent);
-    }
 }

@@ -14,7 +14,7 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ContactFragment extends Fragment {
+public class ContactFragment extends Fragment implements View.onClickListener {
 
     public ContactFragment() {
         // Required empty public constructor
